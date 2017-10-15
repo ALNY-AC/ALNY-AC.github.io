@@ -94,9 +94,8 @@ a {
           box-shadow: 0 12px 24px 0 rgba(7, 17, 27, 0.2);
   /*  box-shadow: 0px 26px 49px 0px rgba(229, 79, 86, 0.23);*/
   border-radius: 20px;
-  text-align: center; }
-  .me-info-panel.width {
-    width: 1000px; }
+  text-align: center;
+  width: 100%; }
   .me-info-panel.min {
     padding: 20px 0; }
     .me-info-panel.min .me-info-panel-title h2 {
