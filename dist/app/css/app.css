@@ -24,6 +24,17 @@ a {
     text-decoration: none;
     outline: none; }
 
+.fk {
+  position: relative;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  left: -20px;
+  top: -4px; }
+
 .github {
   position: absolute;
   top: 5px;
@@ -37,7 +48,7 @@ a {
 .me-head {
   height: 500px;
   width: 100%;
-  background-image: url(../img/b2.jpg);
+  background-image: url(../img/b7.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -48,28 +59,27 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
+  height: 700px;
   overflow: hidden;
   z-index: -1; }
+  .me-bg .cutting {
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 200%;
+    height: 100%;
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg); }
   .me-bg.top {
-    background-image: url(../img/b1.jpg); }
+    background-image: url(../img/b8.jpg);
+    background-position: center 90%;
+    margin-bottom: -540px; }
     .me-bg.top .cutting {
-      position: absolute;
-      background-color: #f9f9f9;
-      width: 200%;
-      height: 100%;
-      -webkit-transform: rotate(-5deg);
-              transform: rotate(-5deg);
-      top: 30%; }
+      top: 30%;
+      left: -20px; }
   .me-bg.bottom {
-    background-image: url(../img/b2.jpg); }
+    margin-top: -200px;
+    background-image: url(../img/b1.jpg); }
     .me-bg.bottom .cutting {
-      position: absolute;
-      background-color: #f9f9f9;
-      width: 200%;
-      height: 100%;
-      -webkit-transform: rotate(-5deg);
-              transform: rotate(-5deg);
       top: -62%;
       left: -50%; }
 
