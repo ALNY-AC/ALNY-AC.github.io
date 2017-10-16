@@ -100,7 +100,7 @@ a {
     position: relative;
     z-index: 9;
     margin: 50px auto;
-    padding: 60px 0;
+    padding: 20px 0;
     background-color: #fff;
     color: #000;
     box-shadow: 0 12px 24px 0 rgba(7, 17, 27, 0.2);
@@ -109,29 +109,22 @@ a {
     text-align: center;
     width: 100%;
     &.width {
-//      width: 1000px;
+        //      width: 1000px;
     }
     &.min {
         padding: 20px 0;
         .me-info-panel-title {
+            padding: 0 20px;
             h2 {
                 margin: 0;
             }
         }
     }
     .me-info-panel-title {
-        h2 {
-            margin: 0;
-            margin-bottom: 30px;
-        }
+        h2 {}
     }
     .me-info-panel-body {
-        ul {
-            list-style: none;
-            li {
-                font-size: 15px;
-            }
-        }
+        padding: 20px;
     }
     .me-skill {
         ul {
@@ -172,14 +165,10 @@ a {
     }
 }
 
-.project-box {
-    width: 1000px;
-    margin: 0 auto;
-}
+.project-box {}
 
 .list-panel {
     position: relative;
-    width: 276px;
     width: 100%;
     overflow: hidden;
     border-radius: 6px;
